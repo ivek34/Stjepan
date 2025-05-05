@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './Components/Home';
-import Program from './Components/program';
+import Program from './Components/Program';
 import Vijece from './Components/Vijece';
 import Vijesti from './Components/Vijesti';
 
