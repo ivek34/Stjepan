@@ -1,0 +1,98 @@
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home-container {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio, avoid cropping */
+  object-fit: contain; /* Show whole image */
+  object-position: center;
+  display: block;
+}
+
+.image-container > nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: #222; /* semi-transparent background for navbar */
+}
+
+.home-header {
+  text-align: center;
+  margin: 2rem auto 1rem;
+  padding: 0 1rem;
+  color: #222;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.home-subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0.5rem 0 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1 !important;
+}
+
+.content-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #333;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 2rem;
+  }
+  .home-subtitle {
+    font-size: 1.2rem;
+  }
+  .content-wrapper {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .image-container {
+    padding-top: 50px;
+  }
+}

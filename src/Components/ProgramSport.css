@@ -1,0 +1,83 @@
+.narrative-section {
+  margin: 2rem 0;
+  border-bottom: 1px solid #eee;
+  padding: 1.5rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.narrative-section:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.narrative-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.narrative-title {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+  flex-grow: 1;
+  font-weight: 700;
+  color: #070707;
+}
+
+.narrative-title:hover {
+  background-color: #fce4ec;
+  color: #b71c1c;
+}
+
+.expand-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #d32f2f;
+  font-weight: 700;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.expand-button:hover {
+  background-color: #fce4ec;
+  color: #b71c1c;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.arrow.expanded {
+  transform: rotate(180deg);
+}
+
+.narrative-list {
+  margin-top: 1rem;
+  padding-left: 2rem;
+  list-style-type: disc;
+  animation: fadeIn 0.3s ease-in;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.narrative-list li {
+  margin-bottom: 0.75rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,106 @@
+.container1 {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+}
+
+.container1 h1 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #004080;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #004080;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 98%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.25rem;
+  border: 2px solid #004080;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+  border-color: #f9a825;
+  outline: none;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+button[type="submit"] {
+  background-color: #004080;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  background-color: #f9a825;
+  color: #004080;
+  outline: none;
+}
+
+.required {
+  color: #cc0000;
+  font-weight: 700;
+  margin-left: 0.25rem;
+}
+
+.status {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.status[data-status="success"] {
+  color: green;
+}
+
+.status[data-status="error"] {
+  color: red;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .container1 {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+  }
+}

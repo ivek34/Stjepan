@@ -1,0 +1,114 @@
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 40px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+.content-wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.home-content > div > div {
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.gradonacelnik-title,
+.zamjenica-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.gradonacelnik-container,
+.zamjenica-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.image-gradonacelnik,
+.zamjenica-image {
+  flex-shrink: 0;
+  width: 50%;
+  text-align: left;
+}
+
+.image-gradonacelnik img,
+.zamjenica-image img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-gradonacelnik,
+.zamjenica-text {
+  flex: 1;
+  text-align: left;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.text-gradonacelnik p {
+  margin: 0;
+}
+.text-gradonacelnik p:nth-child(1),
+.zamjenica-text p:nth-child(1) {
+  animation-delay: 0.8s;
+}
+.text-gradonacelnik p:nth-child(2),
+.zamjenica-text p:nth-child(2) {
+  animation-delay: 1.0s;
+}
+.text-gradonacelnik p:nth-child(3),
+.zamjenica-text p:nth-child(3) {
+  animation-delay: 1.2s;
+}
+.text-gradonacelnik p:nth-child(4),
+.zamjenica-text p:nth-child(4) {
+  animation-delay: 1.4s;
+}
+.text-gradonacelnik p:nth-child(5),
+.zamjenica-text p:nth-child(5) {
+  animation-delay: 1.6s;
+}
+.text-gradonacelnik p:nth-child(6),
+.zamjenica-text p:nth-child(6) {
+  animation-delay: 1.8s;
+}
+@media screen and (max-width: 768px) {
+  .gradonacelnik-container,
+  .zamjenica-container {
+    flex-direction: column !important;
+  }
+  .gradonacelnik-title,
+  .zamjenica-title {
+    order: 1;
+  }
+  .image-gradonacelnik,
+  .zamjenica-image {
+    order: 2;
+    width: 100%;
+  }
+  .text-gradonacelnik,
+  .zamjenica-text {
+    order: 3;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+}
