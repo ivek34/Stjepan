@@ -47,13 +47,13 @@ const ONama = () => {
             </div>
             <div className="text-gradonacelnik">
               <p>
-                Moja odluka o kandidaturi za gradonačelnika Grada Dugog Sela svakako nije donijeta preko noći već je plod dugog promišljanja i vjerovanja da naš grad može puno bolje. Nakon niza godina obnašajući dužnost gradskog vijećnika upoznat sam sa svim procesima koji se odvijaju u gradu, upoznao sam rad nekoliko gradonačelnika do sada i smatram kako naš grad svakako zaslužuje više.
+                Moja odluka o kandidaturi za gradonačelnika Grada Dugog Sela svakako nije donešena preko noći već je plod dugog promišljanja i vjerovanja da naš grad može puno bolje. Nakon niza godina obnašajući dužnost gradskog vijećnika upoznat sam sa svim procesima koji se odvijaju u gradu, upoznao sam rad nekoliko gradonačelnika do sada i smatram kako naš grad svakako zaslužuje više.
               </p>
               <p>
-                Kandidiram se za gradonačelnika Grada Dugog Sela jer vjerujem da naš grad zaslužuje više, više transparentnosti, odgovornosti, prije svega bolji predškolski odgoj, osnovnoškolsko obrazovanje, više prilika za mlade, više podrške našim obrtnicima i gospodarstvenicima, više ulaganja u infrastrukturu, civilno društvo, Dom za starije i nemoćne s vrhunskom uslugom i primjerenim cijenama. kvalitetni javni gradski prijevoz. Bolju kvalitetu i više sadržaja za život svih građana. Kvalitetnu brigu za napuštene životinje.
+                Kandidiram se za gradonačelnika Grada Dugog Sela jer vjerujem da naš grad zaslužuje više, više transparentnosti, odgovornosti, prije svega bolji predškolski odgoj, osnovnoškolsko obrazovanje, više prilika za mlade, više podrške našim obrtnicima i gospodarstvenicima, više ulaganja u infrastrukturu, civilno društvo, Dom za starije i nemoćne s vrhunskom uslugom i primjerenim cijenama. kvalitetan javni gradski prijevoz. Bolju kvalitetu i više sadržaja za život svih građana. Kvalitetnu brigu za napuštene životinje.
               </p>
               <p>
-                Odrastao sam ovdje, i ovo je moj dom. Poznajem naše ljude, njihove potrebe, svakodnevne izazove i svakako neiskorišteni potencijal koje naše Dugo Selo ima. Uvjeren sam da uz odgovorno, pošteno i moderno vođenja Grada Dugog Sela možemo pokrenuti pozitivne promjene koje će se osjetiti u svakom dijelu grada od strogog centra grada pa sve do najudaljenog naselja našeg Dugog Sela. Naši sugrađani zaslužuju jednaki razvoj, jednake prilike, jednaki standard.
+                Odrastao sam ovdje, i ovo je moj dom. Poznam naše ljude, njihove potrebe, svakodnevne izazove i svakako neiskorišteni potencijal koje naše Dugo Selo ima. Uvjeren sam da uz odgovorno, pošteno i moderno vođenja Grada Dugog Sela možemo pokrenuti pozitivne promjene koje će se osjetiti u svakom dijelu grada od strogog centra grada pa sve do najudaljenog naselja našeg Dugog Sela. Naši sugrađani zaslužuju jednaki razvoj, jednake prilike, jednak standard.
               </p>
               <p>
                 Moja motivacija dolazi iz stvarne želje da služim zajednici, da donesem nova rješenja, slušam građane i radim s njima. Naši građani nisu publika, građani su suigrači u timu za bolje Dugo Selo. Kao Gradonačelnik nudim iskrenost, pristupačnost i dostupnost i to baš svakog dana.
