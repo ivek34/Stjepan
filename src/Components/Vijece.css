@@ -32,8 +32,8 @@
 }
 
 .avatar-image {
-  width: 140px;
-  height: 140px;
+  width: 200px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #ec0101;
@@ -58,7 +58,7 @@
 
 
 .avatar-image-shift {
-  object-position: center 0% !important;
+  object-position: center 10% !important;
   }
   .user-text {
     max-width: 200px;

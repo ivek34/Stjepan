@@ -177,7 +177,9 @@ const Vijece = () => {
                   src={user.image}
                   alt={`Avatar of ${user.firstName} ${user.lastName}`}
                   className={
-                    userIndex === 0
+                    user.firstName === "Tomislav" || user.firstName === "Nataša"
+                      ? "avatar-image avatar-image-shift"
+                      : userIndex === 0
                       ? "avatar-image"
                       : "avatar-image avatar-image-shift"
                   }
